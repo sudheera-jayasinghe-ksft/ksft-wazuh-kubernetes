@@ -12,8 +12,5 @@ kind: StorageClass
 metadata:
   name: wazuh-storage
 provisioner: blob.csi.azure.com
-parameters:
-  encrypted: 'true'
-  type: gp2
 volumeBindingMode: WaitForFirstConsumer
 reclaimPolicy: Retain  # Useful in case you delete the PersistentVolumeClaim
