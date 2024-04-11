@@ -13,4 +13,4 @@ metadata:
   name: wazuh-storage
 provisioner: blob.csi.azure.com
 volumeBindingMode: WaitForFirstConsumer
-reclaimPolicy: Retain  # Useful in case you delete the PersistentVolumeClaim
+reclaimPolicy: Delete
