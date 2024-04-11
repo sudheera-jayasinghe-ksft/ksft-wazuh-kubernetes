@@ -12,5 +12,3 @@ kind: StorageClass
 metadata:
   name: wazuh-storage
 provisioner: blob.csi.azure.com
-volumeBindingMode: WaitForFirstConsumer
-reclaimPolicy: Delete
